@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Nh4 Mg L
+Tipo: inorganic
+Muestras cuantificables: 526
+Umbral alto: 30.0000
+Umbral bajo: 19.1250
+Espectros alta concentración: 122
+Espectros baja concentración: 111
+Rango de valores: 0.0000 - 61.7000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 686 nm: ↑ aumento de 0.026124
+ 2. 682 nm: ↑ aumento de 0.026051
+ 3. 684 nm: ↑ aumento de 0.026036
+ 4. 688 nm: ↑ aumento de 0.026012
+ 5. 690 nm: ↑ aumento de 0.025946
+ 6. 696 nm: ↑ aumento de 0.025908
+ 7. 692 nm: ↑ aumento de 0.025887
+ 8. 694 nm: ↑ aumento de 0.025812
+ 9. 680 nm: ↑ aumento de 0.025812
+10. 700 nm: ↑ aumento de 0.025717

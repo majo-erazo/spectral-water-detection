@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Caffeine Ng L
+Tipo: organic
+Muestras cuantificables: 86
+Umbral alto: 116613.5000
+Umbral bajo: 28115.7500
+Espectros alta concentración: 22
+Espectros baja concentración: 22
+Rango de valores: 5113.0000 - 376726.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 720 nm: ↑ aumento de 0.023568
+ 2. 718 nm: ↑ aumento de 0.023510
+ 3. 722 nm: ↑ aumento de 0.023424
+ 4. 714 nm: ↑ aumento de 0.023390
+ 5. 704 nm: ↑ aumento de 0.023370
+ 6. 702 nm: ↑ aumento de 0.023369
+ 7. 716 nm: ↑ aumento de 0.023363
+ 8. 724 nm: ↑ aumento de 0.023311
+ 9. 706 nm: ↑ aumento de 0.023290
+10. 710 nm: ↑ aumento de 0.023275

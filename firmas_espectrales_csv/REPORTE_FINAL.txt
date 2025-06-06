@@ -1,0 +1,154 @@
+REPORTE FINAL - GENERACIÓN DE FIRMAS ESPECTRALES
+======================================================================
+
+Fecha: 2025-05-30 20:45:41
+
+RESUMEN EJECUTIVO
+--------------------
+Contaminantes totales evaluados: 29
+Contaminantes viables: 22
+Firmas espectrales generadas exitosamente: 22
+Contaminantes fallidos: 0
+Tasa de éxito: 100.0%
+
+FIRMAS ESPECTRALES EXITOSAS
+------------------------------
+ 1. Doc Mg L (inorganic)
+    Muestras: 526
+    Espectros: 120 alta, 107 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 682nm, 650nm, 648nm
+
+ 2. Nh4 Mg L (inorganic)
+    Muestras: 526
+    Espectros: 122 alta, 111 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 686nm, 682nm, 684nm
+
+ 3. Turbidity Ntu (inorganic)
+    Muestras: 508
+    Espectros: 122 alta, 102 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 594nm, 592nm, 596nm
+
+ 4. Po4 Mg L (inorganic)
+    Muestras: 526
+    Espectros: 123 alta, 110 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 696nm, 686nm, 700nm
+
+ 5. So4 Mg L (inorganic)
+    Muestras: 526
+    Espectros: 119 alta, 118 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 682nm, 680nm, 684nm
+
+ 6. Nsol Mg L (inorganic)
+    Muestras: 526
+    Espectros: 118 alta, 111 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 686nm, 682nm, 684nm
+
+ 7. Acesulfame Ng L (organic)
+    Muestras: 86
+    Espectros: 22 alta, 22 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 688nm, 686nm, 682nm
+
+ 8. Caffeine Ng L (organic)
+    Muestras: 86
+    Espectros: 22 alta, 22 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 720nm, 718nm, 722nm
+
+ 9. Candesartan Ng L (organic)
+    Muestras: 86
+    Espectros: 21 alta, 22 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 700nm, 704nm, 702nm
+
+10. Diclofenac Ng L (organic)
+    Muestras: 86
+    Espectros: 22 alta, 22 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 700nm, 696nm, 688nm
+
+11. Cyclamate Ng L (organic)
+    Muestras: 86
+    Espectros: 22 alta, 22 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 702nm, 704nm, 714nm
+
+12. Hydrochlorthiazide Ng L (organic)
+    Muestras: 86
+    Espectros: 22 alta, 22 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 574nm, 576nm, 572nm
+
+13. 13-Diphenylguanidine Ng L (organic)
+    Muestras: 86
+    Espectros: 22 alta, 22 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 686nm, 684nm, 682nm
+
+14. 4-&5-Methylbenzotriazole Ng L (organic)
+    Muestras: 86
+    Espectros: 22 alta, 22 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 720nm, 722nm, 724nm
+
+15. Benzotriazole Ng L (organic)
+    Muestras: 86
+    Espectros: 22 alta, 22 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 574nm, 572nm, 576nm
+
+16. Deet Ng L (organic)
+    Muestras: 86
+    Espectros: 22 alta, 22 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 696nm, 700nm, 698nm
+
+17. Hmmm Ng L (organic)
+    Muestras: 85
+    Espectros: 20 alta, 21 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 696nm, 700nm, 698nm
+
+18. Diuron Ng L (organic)
+    Muestras: 78
+    Espectros: 20 alta, 20 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 400nm, 402nm, 434nm
+
+19. Mecoprop Ng L (organic)
+    Muestras: 75
+    Espectros: 19 alta, 18 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 798nm, 728nm, 796nm
+
+20. Citalopram Ng L (organic)
+    Muestras: 64
+    Espectros: 16 alta, 16 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 688nm, 682nm, 696nm
+
+21. 6Ppd-Quinone Ng L (organic)
+    Muestras: 61
+    Espectros: 15 alta, 14 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 594nm, 592nm, 600nm
+
+22. Oit Ng L (organic)
+    Muestras: 54
+    Espectros: 14 alta, 14 baja
+    Longitudes de onda importantes: 20
+    Top 3 λ: 422nm, 424nm, 538nm
+
+RECOMENDACIONES
+---------------
+✅ Contaminantes inorgánicos: 6 exitosos
+✅ Contaminantes orgánicos: 16 exitosos
+
+• Las firmas espectrales de contaminantes inorgánicos muestran excelente potencial
+• Las firmas espectrales de contaminantes orgánicos son viables para los seleccionados

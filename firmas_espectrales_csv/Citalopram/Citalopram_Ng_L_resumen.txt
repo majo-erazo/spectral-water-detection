@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Citalopram Ng L
+Tipo: organic
+Muestras cuantificables: 64
+Umbral alto: 78.7500
+Umbral bajo: 42.5000
+Espectros alta concentración: 16
+Espectros baja concentración: 16
+Rango de valores: 21.0000 - 161.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 688 nm: ↑ aumento de 0.033699
+ 2. 682 nm: ↑ aumento de 0.033639
+ 3. 696 nm: ↑ aumento de 0.033629
+ 4. 690 nm: ↑ aumento de 0.033606
+ 5. 686 nm: ↑ aumento de 0.033605
+ 6. 692 nm: ↑ aumento de 0.033548
+ 7. 694 nm: ↑ aumento de 0.033445
+ 8. 680 nm: ↑ aumento de 0.033434
+ 9. 684 nm: ↑ aumento de 0.033416
+10. 678 nm: ↑ aumento de 0.033398

@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Hmmm Ng L
+Tipo: organic
+Muestras cuantificables: 85
+Umbral alto: 976.0000
+Umbral bajo: 286.0000
+Espectros alta concentración: 20
+Espectros baja concentración: 21
+Rango de valores: 109.0000 - 10541.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 696 nm: ↓ disminución de 0.008579
+ 2. 700 nm: ↓ disminución de 0.008550
+ 3. 698 nm: ↓ disminución de 0.008533
+ 4. 718 nm: ↓ disminución de 0.008370
+ 5. 716 nm: ↓ disminución de 0.008368
+ 6. 704 nm: ↓ disminución de 0.008360
+ 7. 706 nm: ↓ disminución de 0.008340
+ 8. 702 nm: ↓ disminución de 0.008333
+ 9. 694 nm: ↓ disminución de 0.008291
+10. 714 nm: ↓ disminución de 0.008236

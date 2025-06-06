@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Doc Mg L
+Tipo: inorganic
+Muestras cuantificables: 526
+Umbral alto: 104.0000
+Umbral bajo: 51.4750
+Espectros alta concentración: 120
+Espectros baja concentración: 107
+Rango de valores: 10.8000 - 422.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 682 nm: ↑ aumento de 0.034323
+ 2. 650 nm: ↑ aumento de 0.034293
+ 3. 648 nm: ↑ aumento de 0.034282
+ 4. 646 nm: ↑ aumento de 0.034281
+ 5. 652 nm: ↑ aumento de 0.034232
+ 6. 654 nm: ↑ aumento de 0.034228
+ 7. 678 nm: ↑ aumento de 0.034227
+ 8. 644 nm: ↑ aumento de 0.034223
+ 9. 680 nm: ↑ aumento de 0.034213
+10. 640 nm: ↑ aumento de 0.034184

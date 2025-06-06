@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: 6Ppd-Quinone Ng L
+Tipo: organic
+Muestras cuantificables: 61
+Umbral alto: 63.0000
+Umbral bajo: 42.0000
+Espectros alta concentración: 15
+Espectros baja concentración: 14
+Rango de valores: 17.0000 - 96.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 594 nm: ↓ disminución de 0.011655
+ 2. 592 nm: ↓ disminución de 0.011634
+ 3. 600 nm: ↓ disminución de 0.011570
+ 4. 598 nm: ↓ disminución de 0.011566
+ 5. 596 nm: ↓ disminución de 0.011554
+ 6. 602 nm: ↓ disminución de 0.011552
+ 7. 590 nm: ↓ disminución de 0.011542
+ 8. 604 nm: ↓ disminución de 0.011528
+ 9. 692 nm: ↓ disminución de 0.011490
+10. 606 nm: ↓ disminución de 0.011444

@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Turbidity Ntu
+Tipo: inorganic
+Muestras cuantificables: 508
+Umbral alto: 165.6250
+Umbral bajo: 103.3750
+Espectros alta concentración: 122
+Espectros baja concentración: 102
+Rango de valores: 15.8500 - 327.5000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 594 nm: ↑ aumento de 0.039157
+ 2. 592 nm: ↑ aumento de 0.039120
+ 3. 596 nm: ↑ aumento de 0.039099
+ 4. 598 nm: ↑ aumento de 0.039093
+ 5. 590 nm: ↑ aumento de 0.039089
+ 6. 600 nm: ↑ aumento de 0.039054
+ 7. 588 nm: ↑ aumento de 0.038972
+ 8. 602 nm: ↑ aumento de 0.038931
+ 9. 586 nm: ↑ aumento de 0.038865
+10. 604 nm: ↑ aumento de 0.038842

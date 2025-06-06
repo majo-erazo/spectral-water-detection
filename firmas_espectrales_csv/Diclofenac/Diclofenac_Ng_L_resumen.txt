@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Diclofenac Ng L
+Tipo: organic
+Muestras cuantificables: 86
+Umbral alto: 1996.0000
+Umbral bajo: 814.2500
+Espectros alta concentración: 22
+Espectros baja concentración: 22
+Rango de valores: 284.0000 - 6641.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 700 nm: ↑ aumento de 0.034578
+ 2. 696 nm: ↑ aumento de 0.034565
+ 3. 688 nm: ↑ aumento de 0.034516
+ 4. 686 nm: ↑ aumento de 0.034496
+ 5. 690 nm: ↑ aumento de 0.034450
+ 6. 692 nm: ↑ aumento de 0.034428
+ 7. 698 nm: ↑ aumento de 0.034418
+ 8. 682 nm: ↑ aumento de 0.034417
+ 9. 702 nm: ↑ aumento de 0.034349
+10. 694 nm: ↑ aumento de 0.034319

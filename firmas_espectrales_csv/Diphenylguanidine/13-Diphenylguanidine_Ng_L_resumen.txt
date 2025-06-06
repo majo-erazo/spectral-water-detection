@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: 13-Diphenylguanidine Ng L
+Tipo: organic
+Muestras cuantificables: 86
+Umbral alto: 1974.2500
+Umbral bajo: 791.2500
+Espectros alta concentración: 22
+Espectros baja concentración: 22
+Rango de valores: 194.0000 - 4660.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 686 nm: ↓ disminución de 0.024101
+ 2. 684 nm: ↓ disminución de 0.024064
+ 3. 682 nm: ↓ disminución de 0.024024
+ 4. 688 nm: ↓ disminución de 0.023938
+ 5. 690 nm: ↓ disminución de 0.023785
+ 6. 680 nm: ↓ disminución de 0.023782
+ 7. 678 nm: ↓ disminución de 0.023671
+ 8. 692 nm: ↓ disminución de 0.023660
+ 9. 676 nm: ↓ disminución de 0.023554
+10. 698 nm: ↓ disminución de 0.023497

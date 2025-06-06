@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Nsol Mg L
+Tipo: inorganic
+Muestras cuantificables: 526
+Umbral alto: 41.9000
+Umbral bajo: 26.9000
+Espectros alta concentración: 118
+Espectros baja concentración: 111
+Rango de valores: 5.0100 - 86.6000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 686 nm: ↑ aumento de 0.037149
+ 2. 682 nm: ↑ aumento de 0.037040
+ 3. 684 nm: ↑ aumento de 0.037028
+ 4. 696 nm: ↑ aumento de 0.036996
+ 5. 688 nm: ↑ aumento de 0.036987
+ 6. 690 nm: ↑ aumento de 0.036878
+ 7. 692 nm: ↑ aumento de 0.036814
+ 8. 694 nm: ↑ aumento de 0.036810
+ 9. 700 nm: ↑ aumento de 0.036755
+10. 680 nm: ↑ aumento de 0.036742

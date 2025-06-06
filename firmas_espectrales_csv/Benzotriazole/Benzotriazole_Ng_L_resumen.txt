@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Benzotriazole Ng L
+Tipo: organic
+Muestras cuantificables: 86
+Umbral alto: 2613.5000
+Umbral bajo: 1131.5000
+Espectros alta concentración: 22
+Espectros baja concentración: 22
+Rango de valores: 482.0000 - 6950.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 574 nm: ↑ aumento de 0.017041
+ 2. 572 nm: ↑ aumento de 0.017020
+ 3. 576 nm: ↑ aumento de 0.016985
+ 4. 640 nm: ↑ aumento de 0.016981
+ 5. 638 nm: ↑ aumento de 0.016967
+ 6. 632 nm: ↑ aumento de 0.016948
+ 7. 570 nm: ↑ aumento de 0.016946
+ 8. 630 nm: ↑ aumento de 0.016906
+ 9. 642 nm: ↑ aumento de 0.016901
+10. 626 nm: ↑ aumento de 0.016896

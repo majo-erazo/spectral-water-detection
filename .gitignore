@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (too large for Git)
+data/raw/*.csv
+data/processed/*.csv
+*.h5
+*.hdf5
+
+# Model files (too large)
+models/*.joblib
+models/*.pkl
+models/*.h5
+
+# Results
+results/logs/*.log
+results/temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/

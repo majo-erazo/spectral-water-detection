@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Acesulfame Ng L
+Tipo: organic
+Muestras cuantificables: 86
+Umbral alto: 43545.2500
+Umbral bajo: 12203.7500
+Espectros alta concentración: 22
+Espectros baja concentración: 22
+Rango de valores: 5859.0000 - 152831.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 688 nm: ↑ aumento de 0.021769
+ 2. 686 nm: ↑ aumento de 0.021758
+ 3. 682 nm: ↑ aumento de 0.021756
+ 4. 690 nm: ↑ aumento de 0.021682
+ 5. 678 nm: ↑ aumento de 0.021670
+ 6. 680 nm: ↑ aumento de 0.021637
+ 7. 684 nm: ↑ aumento de 0.021610
+ 8. 692 nm: ↑ aumento de 0.021584
+ 9. 702 nm: ↑ aumento de 0.021512
+10. 700 nm: ↑ aumento de 0.021468

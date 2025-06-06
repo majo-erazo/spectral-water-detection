@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Hydrochlorthiazide Ng L
+Tipo: organic
+Muestras cuantificables: 86
+Umbral alto: 695.2500
+Umbral bajo: 297.7500
+Espectros alta concentración: 22
+Espectros baja concentración: 22
+Rango de valores: 154.0000 - 1254.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 574 nm: ↑ aumento de 0.027124
+ 2. 576 nm: ↑ aumento de 0.027103
+ 3. 572 nm: ↑ aumento de 0.027089
+ 4. 640 nm: ↑ aumento de 0.027060
+ 5. 632 nm: ↑ aumento de 0.027047
+ 6. 682 nm: ↑ aumento de 0.027017
+ 7. 578 nm: ↑ aumento de 0.027015
+ 8. 638 nm: ↑ aumento de 0.027015
+ 9. 644 nm: ↑ aumento de 0.027009
+10. 642 nm: ↑ aumento de 0.027009

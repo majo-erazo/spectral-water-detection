@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Mecoprop Ng L
+Tipo: organic
+Muestras cuantificables: 75
+Umbral alto: 319.5000
+Umbral bajo: 75.0000
+Espectros alta concentración: 19
+Espectros baja concentración: 18
+Rango de valores: 34.0000 - 16704.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 798 nm: ↑ aumento de 0.020360
+ 2. 728 nm: ↑ aumento de 0.019859
+ 3. 796 nm: ↑ aumento de 0.019718
+ 4. 760 nm: ↑ aumento de 0.019691
+ 5. 756 nm: ↑ aumento de 0.019657
+ 6. 724 nm: ↑ aumento de 0.019650
+ 7. 726 nm: ↑ aumento de 0.019639
+ 8. 754 nm: ↑ aumento de 0.019621
+ 9. 758 nm: ↑ aumento de 0.019618
+10. 764 nm: ↑ aumento de 0.019603

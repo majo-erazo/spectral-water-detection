@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Po4 Mg L
+Tipo: inorganic
+Muestras cuantificables: 526
+Umbral alto: 3.0700
+Umbral bajo: 1.8025
+Espectros alta concentración: 123
+Espectros baja concentración: 110
+Rango de valores: 0.0000 - 5.8400
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 696 nm: ↑ aumento de 0.029129
+ 2. 686 nm: ↑ aumento de 0.029119
+ 3. 700 nm: ↑ aumento de 0.029112
+ 4. 682 nm: ↑ aumento de 0.029097
+ 5. 702 nm: ↑ aumento de 0.029055
+ 6. 688 nm: ↑ aumento de 0.029048
+ 7. 684 nm: ↑ aumento de 0.029019
+ 8. 698 nm: ↑ aumento de 0.029018
+ 9. 704 nm: ↑ aumento de 0.028989
+10. 690 nm: ↑ aumento de 0.028959

@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Cyclamate Ng L
+Tipo: organic
+Muestras cuantificables: 86
+Umbral alto: 65798.2500
+Umbral bajo: 22861.5000
+Espectros alta concentración: 22
+Espectros baja concentración: 22
+Rango de valores: 8955.0000 - 242025.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 702 nm: ↑ aumento de 0.025010
+ 2. 704 nm: ↑ aumento de 0.025007
+ 3. 714 nm: ↑ aumento de 0.024985
+ 4. 706 nm: ↑ aumento de 0.024924
+ 5. 700 nm: ↑ aumento de 0.024922
+ 6. 712 nm: ↑ aumento de 0.024845
+ 7. 710 nm: ↑ aumento de 0.024832
+ 8. 716 nm: ↑ aumento de 0.024815
+ 9. 718 nm: ↑ aumento de 0.024813
+10. 708 nm: ↑ aumento de 0.024802

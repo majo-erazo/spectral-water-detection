@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Deet Ng L
+Tipo: organic
+Muestras cuantificables: 86
+Umbral alto: 1512.5000
+Umbral bajo: 442.7500
+Espectros alta concentración: 22
+Espectros baja concentración: 22
+Rango de valores: 165.0000 - 4351.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 696 nm: ↑ aumento de 0.016622
+ 2. 700 nm: ↑ aumento de 0.016449
+ 3. 698 nm: ↑ aumento de 0.016437
+ 4. 702 nm: ↑ aumento de 0.016372
+ 5. 694 nm: ↑ aumento de 0.016355
+ 6. 654 nm: ↑ aumento de 0.016354
+ 7. 652 nm: ↑ aumento de 0.016324
+ 8. 668 nm: ↑ aumento de 0.016324
+ 9. 718 nm: ↑ aumento de 0.016320
+10. 688 nm: ↑ aumento de 0.016316

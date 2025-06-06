@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Candesartan Ng L
+Tipo: organic
+Muestras cuantificables: 86
+Umbral alto: 573.0000
+Umbral bajo: 277.0000
+Espectros alta concentración: 21
+Espectros baja concentración: 22
+Rango de valores: 148.0000 - 1337.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 700 nm: ↑ aumento de 0.039682
+ 2. 704 nm: ↑ aumento de 0.039569
+ 3. 702 nm: ↑ aumento de 0.039517
+ 4. 706 nm: ↑ aumento de 0.039500
+ 5. 698 nm: ↑ aumento de 0.039430
+ 6. 714 nm: ↑ aumento de 0.039426
+ 7. 710 nm: ↑ aumento de 0.039357
+ 8. 696 nm: ↑ aumento de 0.039317
+ 9. 708 nm: ↑ aumento de 0.039296
+10. 718 nm: ↑ aumento de 0.039230

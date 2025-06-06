@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Oit Ng L
+Tipo: organic
+Muestras cuantificables: 54
+Umbral alto: 46.2500
+Umbral bajo: 20.2500
+Espectros alta concentración: 14
+Espectros baja concentración: 14
+Rango de valores: 6.0000 - 919.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 422 nm: ↑ aumento de 0.021287
+ 2. 424 nm: ↑ aumento de 0.021274
+ 3. 538 nm: ↑ aumento de 0.021264
+ 4. 536 nm: ↑ aumento de 0.021235
+ 5. 420 nm: ↑ aumento de 0.021217
+ 6. 548 nm: ↑ aumento de 0.021169
+ 7. 540 nm: ↑ aumento de 0.021147
+ 8. 546 nm: ↑ aumento de 0.021138
+ 9. 542 nm: ↑ aumento de 0.021113
+10. 534 nm: ↑ aumento de 0.021100

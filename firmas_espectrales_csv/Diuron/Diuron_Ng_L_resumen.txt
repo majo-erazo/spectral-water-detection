@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: Diuron Ng L
+Tipo: organic
+Muestras cuantificables: 78
+Umbral alto: 806.0000
+Umbral bajo: 169.0000
+Espectros alta concentración: 20
+Espectros baja concentración: 20
+Rango de valores: 47.0000 - 23158.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 400 nm: ↑ aumento de 0.020369
+ 2. 402 nm: ↑ aumento de 0.017471
+ 3. 434 nm: ↑ aumento de 0.015088
+ 4. 432 nm: ↑ aumento de 0.015034
+ 5. 428 nm: ↑ aumento de 0.015001
+ 6. 430 nm: ↑ aumento de 0.014995
+ 7. 426 nm: ↑ aumento de 0.014786
+ 8. 436 nm: ↑ aumento de 0.014655
+ 9. 438 nm: ↑ aumento de 0.014215
+10. 424 nm: ↑ aumento de 0.014198

@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: So4 Mg L
+Tipo: inorganic
+Muestras cuantificables: 526
+Umbral alto: 37.1000
+Umbral bajo: 29.7250
+Espectros alta concentración: 119
+Espectros baja concentración: 118
+Rango de valores: 4.5300 - 79.4000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 682 nm: ↑ aumento de 0.025866
+ 2. 680 nm: ↑ aumento de 0.025737
+ 3. 684 nm: ↑ aumento de 0.025699
+ 4. 686 nm: ↑ aumento de 0.025694
+ 5. 678 nm: ↑ aumento de 0.025662
+ 6. 676 nm: ↑ aumento de 0.025527
+ 7. 688 nm: ↑ aumento de 0.025468
+ 8. 674 nm: ↑ aumento de 0.025394
+ 9. 690 nm: ↑ aumento de 0.025347
+10. 672 nm: ↑ aumento de 0.025341

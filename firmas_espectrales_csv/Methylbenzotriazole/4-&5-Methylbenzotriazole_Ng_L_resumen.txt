@@ -1,0 +1,24 @@
+ANÁLISIS DE FIRMA ESPECTRAL
+==================================================
+
+Contaminante: 4-&5-Methylbenzotriazole Ng L
+Tipo: organic
+Muestras cuantificables: 86
+Umbral alto: 2227.7500
+Umbral bajo: 743.0000
+Espectros alta concentración: 22
+Espectros baja concentración: 22
+Rango de valores: 412.0000 - 10260.0000
+
+LONGITUDES DE ONDA MÁS IMPORTANTES:
+----------------------------------------
+ 1. 720 nm: ↑ aumento de 0.025671
+ 2. 722 nm: ↑ aumento de 0.025630
+ 3. 724 nm: ↑ aumento de 0.025610
+ 4. 728 nm: ↑ aumento de 0.025549
+ 5. 718 nm: ↑ aumento de 0.025427
+ 6. 726 nm: ↑ aumento de 0.025393
+ 7. 798 nm: ↑ aumento de 0.025273
+ 8. 732 nm: ↑ aumento de 0.025115
+ 9. 730 nm: ↑ aumento de 0.025079
+10. 716 nm: ↑ aumento de 0.025039
