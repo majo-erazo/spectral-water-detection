@@ -1,0 +1,1335 @@
+{
+  "timestamp": "2025-06-07T22:58:56.305107",
+  "proyecto": "Detección Temprana de Contaminantes en Aguas Superficiales",
+  "estudiante": "María José Erazo González",
+  "universidad": "Universidad Diego Portales",
+  "metodo": "XGBoost con Adaptación Química Específica",
+  "estadisticas": {
+    "total_contaminantes": 22,
+    "f1_promedio": 0.9938353652747498,
+    "accuracy_promedio": 0.993939393939394,
+    "auc_promedio": 0.993939393939394,
+    "tiempo_total_segundos": 25.639703
+  },
+  "efectividad": {
+    "excelentes": 22,
+    "buenos": 0,
+    "mejorables": 0
+  },
+  "ranking": [
+    [
+      "Doc_Mg_L",
+      1.0
+    ],
+    [
+      "Nh4_Mg_L",
+      1.0
+    ],
+    [
+      "Turbidity_Ntu",
+      1.0
+    ],
+    [
+      "Acesulfame_Ng_L",
+      1.0
+    ],
+    [
+      "13-Diphenylguanidine_Ng_L",
+      1.0
+    ],
+    [
+      "Candesartan_Ng_L",
+      1.0
+    ],
+    [
+      "Citalopram_Ng_L",
+      1.0
+    ],
+    [
+      "Deet_Ng_L",
+      1.0
+    ],
+    [
+      "Diuron_Ng_L",
+      1.0
+    ],
+    [
+      "Hmmm_Ng_L",
+      1.0
+    ],
+    [
+      "Hydrochlorthiazide_Ng_L",
+      1.0
+    ],
+    [
+      "Mecoprop_Ng_L",
+      1.0
+    ],
+    [
+      "Nsol_Mg_L",
+      1.0
+    ],
+    [
+      "Po4_Mg_L",
+      1.0
+    ],
+    [
+      "So4_Mg_L",
+      1.0
+    ],
+    [
+      "6Ppd-Quinone_Ng_L",
+      0.9836065573770492
+    ],
+    [
+      "Caffeine_Ng_L",
+      0.9830508474576272
+    ],
+    [
+      "4-&5-Methylbenzotriazole_Ng_L",
+      0.9830508474576272
+    ],
+    [
+      "Benzotriazole_Ng_L",
+      0.9830508474576272
+    ],
+    [
+      "Cyclamate_Ng_L",
+      0.9830508474576272
+    ],
+    [
+      "Oit_Ng_L",
+      0.9830508474576272
+    ],
+    [
+      "Diclofenac_Ng_L",
+      0.9655172413793104
+    ]
+  ],
+  "resultados_detallados": {
+    "Doc_Mg_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 47,
+        "max_depth": 5,
+        "learning_rate": 0.073684743461629,
+        "reg_alpha": 2.3507893154190755,
+        "reg_lambda": 4.3949511972750965,
+        "min_child_weight": 3
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Doc_Mg_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "fisicoquimico",
+        "subtipo": "carbono_organico_disuelto",
+        "regiones_criticas": [
+          [
+            200,
+            400
+          ],
+          [
+            450,
+            600
+          ]
+        ],
+        "features_especificos": [
+          "broad_organic",
+          "multiple_chromophores"
+        ],
+        "complejidad_esperada": "muy_alta",
+        "separabilidad_esperada": "media",
+        "n_features_optimo": 10
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.109642,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Nh4_Mg_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟢 EXCELENTE",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 37,
+        "max_depth": 5,
+        "learning_rate": 0.09765274112823102,
+        "reg_alpha": 1.5229390984381117,
+        "reg_lambda": 1.3405336550480413,
+        "min_child_weight": 2
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Nh4_Mg_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "inorganico",
+        "subtipo": "ion_amonio",
+        "regiones_criticas": [
+          [
+            200,
+            280
+          ]
+        ],
+        "features_especificos": [
+          "uv_absorption",
+          "slope_uv"
+        ],
+        "complejidad_esperada": "baja",
+        "separabilidad_esperada": "alta",
+        "n_features_optimo": 4
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.199848,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Turbidity_Ntu": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟢 PERFECTO - Esperado para alta separabilidad",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 33,
+        "max_depth": 5,
+        "learning_rate": 0.09129062392228202,
+        "reg_alpha": 2.4407057626887947,
+        "reg_lambda": 4.68069004147436,
+        "min_child_weight": 5
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Turbidity_Ntu",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "fisicoquimico",
+        "subtipo": "dispersion_particulas",
+        "regiones_criticas": [
+          [
+            400,
+            800
+          ]
+        ],
+        "features_especificos": [
+          "broadband_scattering",
+          "uniform_response"
+        ],
+        "complejidad_esperada": "alta",
+        "separabilidad_esperada": "muy_alta",
+        "n_features_optimo": 7
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.213399,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Caffeine_Ng_L": {
+      "test_accuracy": 0.9833333333333333,
+      "test_f1": 0.9830508474576272,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.01666666666666672,
+      "gap_f1": 0.016949152542372836,
+      "auc": 0.9833333333333334,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟢 EXCELENTE",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 29,
+        "max_depth": 7,
+        "learning_rate": 0.028609488117822324,
+        "reg_alpha": 2.124552429227792,
+        "reg_lambda": 2.2479863074392172,
+        "min_child_weight": 4
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Caffeine_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "organico",
+        "subtipo": "xantina_alcaloide",
+        "regiones_criticas": [
+          [
+            250,
+            300
+          ],
+          [
+            350,
+            400
+          ]
+        ],
+        "features_especificos": [
+          "dual_peaks",
+          "chromophore_analysis"
+        ],
+        "complejidad_esperada": "media",
+        "separabilidad_esperada": "alta",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.143059,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Acesulfame_Ng_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 37,
+        "max_depth": 7,
+        "learning_rate": 0.0510753448520368,
+        "reg_alpha": 0.8276952690040451,
+        "reg_lambda": 4.285850654060632,
+        "min_child_weight": 2
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Acesulfame_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "organico",
+        "subtipo": "edulcorante_artificial",
+        "regiones_criticas": [
+          [
+            220,
+            280
+          ]
+        ],
+        "features_especificos": [
+          "uv_signature",
+          "specific_absorption"
+        ],
+        "complejidad_esperada": "media",
+        "separabilidad_esperada": "media",
+        "n_features_optimo": 5
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.336018,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "4-&5-Methylbenzotriazole_Ng_L": {
+      "test_accuracy": 0.9833333333333333,
+      "test_f1": 0.9830508474576272,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.01666666666666672,
+      "gap_f1": 0.016949152542372836,
+      "auc": 0.9833333333333334,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 23,
+        "max_depth": 5,
+        "learning_rate": 0.03562506783008998,
+        "reg_alpha": 0.9650648754526843,
+        "reg_lambda": 1.6074622507525058,
+        "min_child_weight": 4
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "4-&5-Methylbenzotriazole_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.082763,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "6Ppd-Quinone_Ng_L": {
+      "test_accuracy": 0.9833333333333333,
+      "test_f1": 0.9836065573770492,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.01666666666666672,
+      "gap_f1": 0.016393442622950838,
+      "auc": 0.9833333333333334,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 33,
+        "max_depth": 5,
+        "learning_rate": 0.03354633364827583,
+        "reg_alpha": 0.5506590141760479,
+        "reg_lambda": 4.2488864986173995,
+        "min_child_weight": 2
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "6Ppd-Quinone_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.752243,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "13-Diphenylguanidine_Ng_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 27,
+        "max_depth": 5,
+        "learning_rate": 0.06070926818154085,
+        "reg_alpha": 0.8770902799181011,
+        "reg_lambda": 2.9468783535799257,
+        "min_child_weight": 2
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "13-Diphenylguanidine_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.147577,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Benzotriazole_Ng_L": {
+      "test_accuracy": 0.9833333333333333,
+      "test_f1": 0.9830508474576272,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.01666666666666672,
+      "gap_f1": 0.016949152542372836,
+      "auc": 0.9833333333333334,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 31,
+        "max_depth": 5,
+        "learning_rate": 0.09475110983364636,
+        "reg_alpha": 0.5631435287932525,
+        "reg_lambda": 4.160298832253634,
+        "min_child_weight": 5
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Benzotriazole_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.070249,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Candesartan_Ng_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 48,
+        "max_depth": 6,
+        "learning_rate": 0.07489498670787191,
+        "reg_alpha": 2.055576991836241,
+        "reg_lambda": 2.6315226136677765,
+        "min_child_weight": 3
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Candesartan_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "organico",
+        "subtipo": "farmaceutico_complejo",
+        "regiones_criticas": [
+          [
+            250,
+            350
+          ],
+          [
+            400,
+            500
+          ]
+        ],
+        "features_especificos": [
+          "multi_peak",
+          "complex_structure"
+        ],
+        "complejidad_esperada": "alta",
+        "separabilidad_esperada": "media",
+        "n_features_optimo": 8
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.09471,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Citalopram_Ng_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 34,
+        "max_depth": 5,
+        "learning_rate": 0.06629401010562154,
+        "reg_alpha": 2.2275218011881455,
+        "reg_lambda": 1.4401198044587868,
+        "min_child_weight": 4
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Citalopram_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.138678,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Cyclamate_Ng_L": {
+      "test_accuracy": 0.9833333333333333,
+      "test_f1": 0.9830508474576272,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.01666666666666672,
+      "gap_f1": 0.016949152542372836,
+      "auc": 0.9833333333333334,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 48,
+        "max_depth": 5,
+        "learning_rate": 0.050638747772452586,
+        "reg_alpha": 2.187781384389204,
+        "reg_lambda": 2.854381186815423,
+        "min_child_weight": 1
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Cyclamate_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.104861,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Deet_Ng_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 38,
+        "max_depth": 6,
+        "learning_rate": 0.031133610853913005,
+        "reg_alpha": 1.2958837082869386,
+        "reg_lambda": 2.3357930593562357,
+        "min_child_weight": 3
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Deet_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.085422,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Diclofenac_Ng_L": {
+      "test_accuracy": 0.9666666666666667,
+      "test_f1": 0.9655172413793104,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.033333333333333326,
+      "gap_f1": 0.03448275862068961,
+      "auc": 0.9666666666666667,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟢 EXCELENTE",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 31,
+        "max_depth": 5,
+        "learning_rate": 0.04037823171020877,
+        "reg_alpha": 1.7170397869392113,
+        "reg_lambda": 1.1799459191743251,
+        "min_child_weight": 3
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Diclofenac_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "organico",
+        "subtipo": "antiinflamatorio",
+        "regiones_criticas": [
+          [
+            275,
+            285
+          ],
+          [
+            320,
+            330
+          ]
+        ],
+        "features_especificos": [
+          "precise_peaks",
+          "narrow_bands"
+        ],
+        "complejidad_esperada": "media",
+        "separabilidad_esperada": "alta",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.100215,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Diuron_Ng_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 43,
+        "max_depth": 5,
+        "learning_rate": 0.05015600282267094,
+        "reg_alpha": 0.9803249097995363,
+        "reg_lambda": 3.4505299824987175,
+        "min_child_weight": 5
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Diuron_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.093736,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Hmmm_Ng_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 49,
+        "max_depth": 6,
+        "learning_rate": 0.04717335811114326,
+        "reg_alpha": 1.3396620626670546,
+        "reg_lambda": 1.5431339857592348,
+        "min_child_weight": 1
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Hmmm_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.092479,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Hydrochlorthiazide_Ng_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 36,
+        "max_depth": 6,
+        "learning_rate": 0.036652608747870276,
+        "reg_alpha": 1.7832507282850871,
+        "reg_lambda": 4.045807258519754,
+        "min_child_weight": 3
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Hydrochlorthiazide_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.150668,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Mecoprop_Ng_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 35,
+        "max_depth": 5,
+        "learning_rate": 0.04771918308667393,
+        "reg_alpha": 2.4527541064295266,
+        "reg_lambda": 1.516003156624544,
+        "min_child_weight": 2
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Mecoprop_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.07353,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Nsol_Mg_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 49,
+        "max_depth": 7,
+        "learning_rate": 0.05809613509524639,
+        "reg_alpha": 0.8237583802207795,
+        "reg_lambda": 4.125702846468104,
+        "min_child_weight": 2
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Nsol_Mg_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.098105,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Oit_Ng_L": {
+      "test_accuracy": 0.9833333333333333,
+      "test_f1": 0.9830508474576272,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.01666666666666672,
+      "gap_f1": 0.016949152542372836,
+      "auc": 0.9833333333333334,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 37,
+        "max_depth": 6,
+        "learning_rate": 0.04733576873380648,
+        "reg_alpha": 0.5797271592291355,
+        "reg_lambda": 4.52869792623364,
+        "min_child_weight": 5
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Oit_Ng_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "desconocido",
+        "subtipo": "generico",
+        "n_features_optimo": 6
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.204766,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "Po4_Mg_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟢 EXCELENTE",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 43,
+        "max_depth": 6,
+        "learning_rate": 0.04762281030918404,
+        "reg_alpha": 1.3942843372679619,
+        "reg_lambda": 2.2327905933591925,
+        "min_child_weight": 4
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "Po4_Mg_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "inorganico",
+        "subtipo": "ion_fosfato",
+        "regiones_criticas": [
+          [
+            200,
+            250
+          ]
+        ],
+        "features_especificos": [
+          "uv_extreme",
+          "sharp_absorption"
+        ],
+        "complejidad_esperada": "baja",
+        "separabilidad_esperada": "alta",
+        "n_features_optimo": 4
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.130346,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    },
+    "So4_Mg_L": {
+      "test_accuracy": 1.0,
+      "test_f1": 1.0,
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "gap_accuracy": 0.0,
+      "gap_f1": 0.0,
+      "auc": 1.0,
+      "diagnostico_overfitting": "XGBOOST_ROBUSTO",
+      "recomendacion": "Configuración óptima para este contaminante",
+      "evaluacion_quimica": "🟡 BUENO - Esperado para separabilidad media",
+      "feature_importance": {
+        "signature_mean": 1.0,
+        "signature_max": 0.0,
+        "signature_std": 0.0,
+        "signature_range": 0.0,
+        "signature_auc": 0.0,
+        "real_ratio": 0.0
+      },
+      "parametros_xgboost": {
+        "n_estimators": 34,
+        "max_depth": 6,
+        "learning_rate": 0.06056044722987654,
+        "reg_alpha": 2.0903800943297473,
+        "reg_lambda": 4.427031697035849,
+        "min_child_weight": 4
+      },
+      "n_muestras_train": 140,
+      "n_muestras_test": 60,
+      "exito": true,
+      "contaminante": "So4_Mg_L",
+      "metodo": "sistema_final_xgboost",
+      "perfil_quimico": {
+        "tipo": "inorganico",
+        "subtipo": "ion_sulfato",
+        "regiones_criticas": [
+          [
+            200,
+            300
+          ]
+        ],
+        "features_especificos": [
+          "broad_uv",
+          "moderate_absorption"
+        ],
+        "complejidad_esperada": "baja",
+        "separabilidad_esperada": "media",
+        "n_features_optimo": 5
+      },
+      "categoria_dataset": "grande",
+      "n_muestras_total": 200,
+      "tiempo_entrenamiento": 1.090602,
+      "features_utilizados": [
+        "signature_mean",
+        "signature_max",
+        "signature_std",
+        "signature_range",
+        "signature_auc",
+        "real_ratio"
+      ],
+      "configuracion_xgboost": "XGBoost completo para datasets grandes"
+    }
+  }
+}

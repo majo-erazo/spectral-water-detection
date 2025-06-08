@@ -1,7 +1,3 @@
-# sistema_completo_quimico_hibrido.py
-# Sistema final que combina adaptación química específica + selección híbrida de modelos
-# María José Erazo González - Proyecto UDP
-
 import os
 import pandas as pd
 import numpy as np

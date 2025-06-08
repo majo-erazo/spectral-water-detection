@@ -1,7 +1,3 @@
-# sistema_deteccion_contaminantes_svm_final.py
-# Sistema de detección temprana de contaminantes usando Machine Learning
-# Versión final optimizada con control de overfitting (SIN reporte HTML)
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
