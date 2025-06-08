@@ -1,8 +1,5 @@
 {
   "timestamp": "2025-06-07T22:58:56.305107",
-  "proyecto": "Detección Temprana de Contaminantes en Aguas Superficiales",
-  "estudiante": "María José Erazo González",
-  "universidad": "Universidad Diego Portales",
   "metodo": "XGBoost con Adaptación Química Específica",
   "estadisticas": {
     "total_contaminantes": 22,
