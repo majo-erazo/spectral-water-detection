@@ -7,7 +7,7 @@
 
 Sistema de inteligencia artificial para la detección temprana de contaminantes en aguas superficiales mediante análisis espectrofotométrico. Desarrollado como proyecto de tesis en la Universidad de Concepción.
 
-## 🏗️ Arquitectura del Sistema
+## 🏗 Arquitectura del Sistema
 
 - **Módulo 1:** Adquisición y Preprocesamiento de datos espectrales
 - **Módulo 2:** Modelamiento IA (SVM + XGBoost + LSTM)
