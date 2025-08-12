@@ -3,7 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 
-## 🎯 Descripción
+##  Descripción
 
 Sistema de inteligencia artificial para la detección temprana de contaminantes en aguas superficiales mediante análisis espectrofotométrico. Desarrollado como proyecto de tesis en la Universidad de Concepción.
 

@@ -147,8 +147,8 @@ FIRMAS ESPECTRALES EXITOSAS
 
 RECOMENDACIONES
 ---------------
-✅ Contaminantes inorgánicos: 6 exitosos
-✅ Contaminantes orgánicos: 16 exitosos
+ Contaminantes inorgánicos: 6 exitosos
+ Contaminantes orgánicos: 16 exitosos
 
 • Las firmas espectrales de contaminantes inorgánicos muestran excelente potencial
 • Las firmas espectrales de contaminantes orgánicos son viables para los seleccionados
