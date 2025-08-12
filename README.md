@@ -14,7 +14,7 @@ Sistema de inteligencia artificial para la detección temprana de contaminantes 
 - **Módulo 3:** Validación y Evaluación
 - **Módulo 4:** Interpretación de Resultados y Alertas
 
-## 🚀 Instalación Rápida
+##  Instalación Rápida
 
 ```bash
 git clone https://github.com/tu-usuario/contaminant-detection-ml.git

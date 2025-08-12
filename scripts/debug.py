@@ -4,7 +4,7 @@ import numpy as np
 def debug_data_structure():
     """Script para analizar la estructura de tus archivos de datos"""
     
-    print("🔍 ANALIZANDO ESTRUCTURA DE DATOS")
+    print(" ANALIZANDO ESTRUCTURA DE DATOS")
     print("=" * 50)
     
     # Rutas de archivos - ajusta según tu estructura
@@ -34,7 +34,7 @@ def debug_data_structure():
             
             # Análisis específico para reflectance
             if file_type == 'reflectance':
-                print(f"\n🔍 ANÁLISIS DETALLADO DE REFLECTANCE:")
+                print(f"\n ANÁLISIS DETALLADO DE REFLECTANCE:")
                 
                 # Buscar columnas que contengan 'reflectance'
                 reflectance_cols = [col for col in df.columns if 'reflectance' in col.lower()]
