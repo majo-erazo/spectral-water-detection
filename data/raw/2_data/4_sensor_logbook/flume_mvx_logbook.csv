@@ -1,0 +1,8 @@
+event,start,end,data_valid,comment
+int,timestamp_iso, timestamp_iso,int,string
+0,2023-05-15T06:00:00,2023-05-16T07:00:00,0,"Camera not capturing"
+1,2023-05-19T07:00:00,2023-05-20T22:00:00,0,"Camera not capturing"
+2,2023-07-25T10:00:00,2023-07-25T11:00:00,1,"Transition to 30 minutes capturing interval"
+3,2023-08-03T12:30:00,2023-08-11T08:30:00,0,"Camera not capturing"
+3,2023-09-06T13:30:00,2023-09-07T10:00:00,0,"Camera not capturing"
+4,2023-10-10T09:30:00,2023-10-14T07:00:00,0,"Camera not capturing"

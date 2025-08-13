@@ -1,0 +1,5 @@
+index,timestamp,lab_loq_acesulfame_ng_l,lab_loq_caffeine_ng_l,lab_loq_cyclamate_ng_l,lab_loq_candesartan_ng_l,lab_loq_citalopram_ng_l,lab_loq_diclofenac_ng_l,lab_loq_hydrochlorthiazide_ng_l,lab_loq_triclosan_ng_l,lab_loq_13-diphenylguanidine_ng_l,lab_loq_6ppd-quinone_ng_l,lab_loq_hmmm_ng_l,lab_loq_24-d_ng_l,lab_loq_carbendazim_ng_l,lab_loq_diuron_ng_l,lab_loq_mcpa_ng_l,lab_loq_mecoprop_ng_l,lab_loq_oit_ng_l,lab_loq_4-&5-methylbenzotriazole_ng_l,lab_loq_benzotriazole_ng_l,lab_loq_deet_ng_l,sampling_method
+0,2023-06-21T09:37:00,883,6684,2611,7,8,10,9,76,34,14,3,50,10,46,44,52,3,201,52,154,M
+1,2023-10-14T08:44:00,1016,5083,2449,37,46,33,33,107,27,31,7,93,18,16,39,16,277,283,15,111,M
+2,2023-10-20T13:00:00,891,4234,2163,38,42,41,35,118,90,38,6,101,22,16,40,18,110,224,26,114,M
+3,2023-10-24T10:00:00,891,5122,2646,7,15,9,9,103,43,14,2,60,11,48,47,59,4,263,52,149,M
