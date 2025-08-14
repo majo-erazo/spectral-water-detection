@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 train_V4_spectral_enhanced.py - Sistema de Entrenamiento con Análisis Espectral V4
-Universidad Diego Portales - María José Erazo González
+
 
 Sistema completo de entrenamiento con correcciones implementadas + análisis espectral integrado
 Compatible con datasets generados por ML_dataset_generator_spectral_enhanced.py
@@ -1011,7 +1011,7 @@ class SpectralEnhancedMLPipeline:
         """Ejecutar pipeline de entrenamiento espectral completo"""
         
         print(" SISTEMA DE ENTRENAMIENTO SPECTRAL ENHANCED V4")
-        print("Universidad Diego Portales - María José Erazo González")
+        print("")
         print("="*70)
         
         # Detectar contaminantes disponibles
@@ -1404,7 +1404,7 @@ class SpectralEnhancedMLPipeline:
         # Encabezado
         report_lines.extend([
             "# REPORTE DE ENTRENAMIENTO SPECTRAL ENHANCED",
-            "## Universidad Diego Portales - María José Erazo González",
+            "## ",
             f"**Fecha:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
             f"**Pipeline:** Spectral Enhanced ML V4",
             f"**Datasets:** {self.datasets_dir}",
@@ -1580,7 +1580,7 @@ def main():
     """Función principal para ejecutar el entrenamiento espectral enhanced"""
     
     print(" TRAIN V4 SPECTRAL ENHANCED")
-    print("Universidad Diego Portales - María José Erazo González")
+    print("")
     print("="*70)
     
     # Detectar directorios de datasets disponibles

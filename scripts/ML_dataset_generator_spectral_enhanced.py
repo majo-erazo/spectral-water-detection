@@ -1034,7 +1034,7 @@ class SpectralEnhancedMLGenerator:
         ]) if with_spectral > 0 else 0
         
         report = f"""# REPORTE SPECTRAL ENHANCED ML PIPELINE
-## Universidad Diego Portales - María José Erazo González
+## 
 
 ### RESUMEN EJECUTIVO ESPECTRAL
 - **Timestamp**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
@@ -1339,7 +1339,6 @@ def main():
     """Función principal del pipeline spectral enhanced"""
     
     print(" PIPELINE SPECTRAL ENHANCED ML + LOQ + AUGMENTATION + ANÁLISIS ESPECTRAL")
-    print("Universidad Diego Portales - María José Erazo González")
     print("=" * 80)
     
     # Rutas de archivos

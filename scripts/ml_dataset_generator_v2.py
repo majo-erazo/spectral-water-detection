@@ -2180,7 +2180,7 @@ def create_optimized_water_quality_datasets(
     
     print(" CREADOR DE DATASETS OPTIMIZADOS DE CALIDAD DE AGUA")
     print("=" * 70)
-    print(" Universidad Diego Portales - María José Erazo González")
+    print(" ")
     print(" Pipeline optimizado libre de data leakage")
     print("=" * 70)
     
